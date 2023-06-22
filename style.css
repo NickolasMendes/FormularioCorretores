@@ -1,0 +1,121 @@
+
+/* COR E FONTE DA PAGINA */
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, rgb(56, 110, 168), rgb(0, 58, 128)  );
+}
+
+/* FORMULÁRIO ALINHADO */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+h2{
+    text-align: center;
+}
+
+
+/* ESTILIZAÇÃO DO NOME DOS CAMPOS */
+.CampoName{
+    font-weight: bold;
+}
+
+
+/* ESPAÇAMENTO ENTRE OS CAMPOS */
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+
+
+/* BORDA DOS CAMPOS */
+.inputCad {
+    width: 90%;
+    padding: 8px;
+    margin-top: 4px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+/* ESTILIZAÇÃO DO BOTÃO */
+.inputButton{
+    background-color: #4CAF50;
+    font-size: 16px;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.inputButton:hover {
+    background-color: #2a4e2d;
+}
+
+
+
+/* ESTILIZAÇÃO DO FIELDSET */
+fieldset{
+    background-color: rgb(240, 240, 255);
+    border-radius: 8px;
+    border: 1px solid white;
+    box-shadow: 3px 3px 3px 1px rgba(50, 50, 50, 0.77);
+    
+}
+
+
+/* ESTILIZANDO TABLELA */
+.DivTable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    
+}
+.table{
+    padding: 10px 0;
+    border-radius: 8px;
+    width: 60%;
+    box-shadow: 3px 3px 3px 1px rgba(50, 50, 50, 0.77);
+    background-color: rgb(240, 240, 255);
+}
+th {
+    color: black;
+    height: 40px;
+}
+td {
+    text-align: center;
+    border-bottom: 1px solid rgb(111, 111, 111) ;
+}
+.TRdados {
+    height: 25px;
+}
+
+
+
+
+/* ESTILIZANDO BOTAO ALT */
+.bnt_alt .bnt_del{
+    cursor: pointer;
+}
+.bnt_alt .bnt_del:hover {
+    border-bottom: 1px solid rgb(0, 0, 255) ;
+    color: blue;
+}
+
+/* ESTILIZAÇÃO DO BOTÃO VOLTAR */
+.btn_voltar{
+    background-color: #ec542a;
+    font-size: 16px;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.btn_voltar:hover {
+    color: #441d12;
+}
